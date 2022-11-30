@@ -23,12 +23,7 @@ AFRAME.registerComponent("fish", {
     fishEl.setAttribute("gltf-model", "./assets/fish/scene.gltf");
 
     
-    fishEl.setAttribute("animation", {
-      property: "position",
-      to: "100 10 -20",
-      loop: "true",
-      dur: 20000
-    });
+    // setAttribute for fishEl
 
     fishEl.setAttribute("animation-mixer", {});
 
